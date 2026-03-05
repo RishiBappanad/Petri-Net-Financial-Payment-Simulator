@@ -1,0 +1,47 @@
+{
+  "description": "Complex network: 5 banks with multiple payment routes.",
+  "banks": {
+    "BankA": 150,
+    "BankB": 100,
+    "BankC": 80,
+    "BankD": 60,
+    "BankE": 90
+  },
+  "payments": [
+    {
+      "from": "BankA",
+      "to": "BankB",
+      "amount": 50
+    },
+    {
+      "from": "BankB",
+      "to": "BankC",
+      "amount": 60
+    },
+    {
+      "from": "BankC",
+      "to": "BankD",
+      "amount": 40
+    },
+    {
+      "from": "BankD",
+      "to": "BankE",
+      "amount": 30
+    },
+    {
+      "from": "BankE",
+      "to": "BankA",
+      "amount": 50
+    },
+    {
+      "from": "BankA",
+      "to": "BankC",
+      "amount": 30
+    },
+    {
+      "from": "BankB",
+      "to": "BankD",
+      "amount": 20
+    }
+  ]
+}

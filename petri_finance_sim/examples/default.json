@@ -1,0 +1,25 @@
+{
+  "description": "Default example: banks A, B, C with cyclic payments forming a potential gridlock scenario.",
+  "banks": {
+    "A": 100,
+    "B": 50,
+    "C": 30
+  },
+  "payments": [
+    {
+      "from": "A",
+      "to": "B",
+      "amount": 40
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "amount": 70
+    },
+    {
+      "from": "C",
+      "to": "A",
+      "amount": 20
+    }
+  ]
+}

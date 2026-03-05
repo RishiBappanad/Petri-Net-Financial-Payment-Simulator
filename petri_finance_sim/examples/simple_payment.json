@@ -1,0 +1,14 @@
+{
+  "description": "Simple two-bank payment: A sends to B. Should succeed without deadlock.",
+  "banks": {
+    "Alice": 100,
+    "Bob": 0
+  },
+  "payments": [
+    {
+      "from": "Alice",
+      "to": "Bob",
+      "amount": 50
+    }
+  ]
+}
